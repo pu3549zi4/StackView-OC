@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *numCollection;
+
+@property (nonatomic, assign) BOOL showAllBtn;
 
 @end
 
